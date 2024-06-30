@@ -1,0 +1,321 @@
+@font-face {
+  font-family: Qanelas;
+  font-display: swap;
+  font-weight: 900;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.svg#wf)
+      format("svg");
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-display: swap;
+  font-weight: 700;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.svg#wf)
+      format("svg");
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-display: swap;
+  font-weight: 800;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.svg#wf)
+      format("svg");
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-display: swap;
+  font-weight: 600;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.svg#wf)
+      format("svg");
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-display: swap;
+  font-weight: 500;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.svg#wf)
+      format("svg");
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-display: swap;
+  font-weight: 400;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.svg#wf)
+      format("svg");
+}
+
+body {
+  font-family: Qanelas, sans-serif;
+}
+
+.header {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+nav {
+  z-index: 100;
+}
+
+.nav-align ul {
+  gap: 40px;
+  font-size: 19.2px;
+  font-weight: 600;
+}
+
+.header-inner {
+  max-width: 1200px;
+  height: 75px;
+}
+
+.logo-nav-btn-wrap {
+  height: 75px;
+}
+
+.btn-tog:focus {
+  box-shadow: none;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  background-color: #000;
+}
+
+.sec-bg {
+  width: 100%;
+  height: 100%;
+  background: url(images/bg-sec-one.avif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec-content {
+  padding: 80px 20px;
+}
+
+.sec-content-four {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h4 {
+  font-size: 32px;
+  margin: 0 0 4px;
+}
+
+span a {
+  color: #898989;
+}
+
+.row-four {
+  gap: 50px 0;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content-vdo {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.col {
+  width: 306px;
+  height: 306px;
+}
+
+.col img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-sec-three {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.foot-a {
+  margin-right: 8px;
+}
+
+main {
+  z-index: 1;
+}
+
+h2 {
+  font-family: Qanelas;
+  font-size: 41.6px;
+  font-weight: 800;
+}
+
+.img-container {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.vdo-container {
+  max-width: 800px;
+  margin: 20px auto 10px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.vdo-container video {
+  width: 100%;
+}
+
+.card-body .card-text,
+.content-sec-three .card-text {
+  font-weight: 500;
+  font-size: 19.2px;
+  margin: 23px 0;
+  line-height: 34.8px;
+}
+
+.card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card {
+  border: none;
+  background: transparent;
+}
+
+.sec-three-para {
+  max-width: 700px;
+}
+
+.card-title {
+  margin: 0 0 20px;
+}
+
+.section-two {
+  background: linear-gradient(
+    174deg,
+    rgb(250, 70, 22) 0%,
+    rgb(114, 30, 78) 100%
+  );
+}
+
+.txt-clr {
+  color: white;
+}
+
+.rounded-photo {
+  width: 100%;
+  height: auto;
+}
+.photo-container {
+  padding: 20px;
+}
+
+.sec-four-cf {
+  margin-top: 60px;
+}
+
+footer {
+  padding: 10px 0;
+  width: 100%;
+  color: rgb(184, 184, 184);
+  background: rgb(47, 50, 51);
+  position: relative;
+}
+
+.footer-cf {
+  width: 100%;
+}
+
+.container-fluid span a {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 2;
+  opacity: 0.6;
+  color: #b8b8b8;
+}
+
+.container-fluid span {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 2;
+}
+
+@media (max-width: 992px) {
+  .nav-align ul {
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .nav-align {
+    background-color: #ffffff;
+  }
+
+  .nav-align ul li a {
+    padding: 0;
+  }
+}
